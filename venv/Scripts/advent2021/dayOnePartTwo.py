@@ -1,6 +1,5 @@
 #pt 2
 def get_number_of_three_increases(input):
-    inc_num = 0
     three_sum_input = []
     for i in range(len(input)):
         three_sum = input[i:i+3]
